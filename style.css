@@ -1058,7 +1058,7 @@ header.fl-hdr {
 
 /*star of shariful*/
  
-.nfs-sec-6-hdr{
+/* .nfs-sec-6-hdr{
   padding: 28px 0 20px;
   background: #007ab5;
   border-bottom: 6px solid #ff9c00;
@@ -1107,7 +1107,40 @@ header.fl-hdr {
 }
 .nfs-sec-8-des{
   padding-right: 30px;
+} */
+/* <div class="row">
+  <div class="col-lg-6 col-md-12"></div>
+</div> */
+.nfn-sec-1-hdr{
+  background: #007ab5;
+  padding: 26px 0 36px;
+  border-bottom: 6px solid #ff9c00;
+  position: relative;
+  margin-bottom: 30px;
 }
+.nfn-sec-1-hdr-bdr-btm-angle{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    bottom: -31px;
+    width: 88px;
+    height: 35px;
+    background-size: 100% auto!important;
+    background-repeat: no-repeat!important;
+    z-index: 10;
+}
+.nfn-sec-1-title{
+  text-align: center;
+}
+.nfn-sec-1-title h1{
+  line-height: 1;
+  margin: 0;
+  color: #fff;
+}
+
+
 
 
 @media(max-width: 1399px){
