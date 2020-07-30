@@ -203,7 +203,7 @@ img {
 p{
   margin: 0;
   margin-bottom: 28px;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 a { word-wrap: break-word } 
 strong { font-weight:normal }
@@ -315,7 +315,7 @@ h1 {
   font-size: 60px;
 }
 h2 {
-  font-size: 35px;
+  font-size: 57px;
   font-family: 'FiraSans-Bold';
 }
 h3 {
@@ -368,7 +368,8 @@ header.fl-hdr {
     padding-right: 30px
 }
 .hdr-rgt {
-    text-align: right
+    text-align: right;
+    padding-left: 25px;
 }
 .hdr-logo{
     display: inline-block;
@@ -447,12 +448,15 @@ header.fl-hdr {
   font-size: 20px;
   line-height: 1.2;
 }
-.fl-page-bnr h2{
+.fl-page-bnr h3{
   color: #fd0000;
   margin: 0 0 30px 0;
+  font-family: 'FiraSans-Bold';
+  font-size: 35px;
 }
 .fl-page-bnr p{
-  margin-bottom: 40px;
+  margin-bottom: 35px;
+  line-height: 1.5;
 }
 .fl-page-bnr h1{
   color: #ffde00;
@@ -738,7 +742,7 @@ header.fl-hdr {
 }
 
 .fl-copyright{
-    padding-bottom: 30px;
+    padding-bottom: 2px;
     
 }
 .fl-copyright p{
@@ -1128,7 +1132,7 @@ header.fl-hdr {
 }
 
 .nfr-sec-2-img-01{
-  margin-top: -10px;
+  padding-top: 15px;
 }
 .nfr-sec-3-inr{
   position: relative;
@@ -1234,28 +1238,73 @@ header.fl-hdr {
     .show-md{
       display: block!important;
     }
-    h1{
-      font-size: 45px;
+    h1 {
+      font-size: 55px;
     }
-    h2{
-      font-size: 35px;
+    h2 {
+      font-size: 50px;
     }
     h3 {
-      font-size: 26px;
+      font-size: 30px;
     }
     h4 {
-      font-size: 20px;
+      font-size: 26px;
     }
+
+
     p br{
       display: none;
     }
-    .xs-center{
-      text-align: center;
-      padding-left: 0;
-      padding-right: 0;
-      padding-bottom: 30px;
+    .ml-5{
+      margin-left: 0!important;
+    }
+    .ml-10{
+      margin-left: 0px!important;
+    }
+    .ml-15{
+      margin-left: 0px!important;
+    }
+    .ml-20{
+      margin-left: 0px!important;
+    }
+    .ml-25{
+      margin-left: 0px!important;
+    }
+    .ml-30{
+      margin-left: 0px!important;
     }
 
+    .mr-5{
+      margin-right: 0px!important
+    }
+    .mr-10{
+      margin-right: 0px!important
+    }
+    .mr-15{
+      margin-right: 0px!important
+    }
+    .mr-20{
+      margin-right: 0px!important
+    }
+    .mr-25{
+      margin-right: 0px!important
+    }
+    .mr-30{
+      margin-right: 0px!important
+    }
+    .xs-center{
+      text-align: center!important;
+      padding-left: 0!important;
+      padding-right: 0!important;
+      padding-bottom: 25px!important;
+      margin-left: 0!important;
+      margin-right: 0!important;
+      margin-top: 0!important;
+    }
+    .col-lg-6.pull-right,
+    .col-lg-6.pull-left{
+      width: 100%;
+    }
     br{
       display: none;
     }
@@ -1263,10 +1312,59 @@ header.fl-hdr {
       padding-left: 0!important;
     }
     .nfr-sec-yellow-title-05.nfr-sec-yellow-title-06{
-    padding-left: 0;
-    padding-right: 0;
-  }
-
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .nfr-sec-3-fea-img-01,
+    .nfn-sec-1-fea-img,
+    .nfr-sec-5-sub-sec-01-fea-img{
+      position: static;
+      transform: initial;
+      width: 100%;
+    }
+    .nfn-sec-1-fea-img{
+      background: transparent!important;
+    }
+    .nfn-sec-1-fea-img img,
+    .nfr-sec-5-sub-sec-01-fea-img img{
+      display: inline-block;
+      vertical-align: baseline;
+    }
+    .nfn-sec-1-desc{
+      width: 100%;
+    }
+    .nfr-sec-3-inr{
+      padding-right: 0;
+    }
+    .nfr-sec-3-des{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .nfr-section-5-inr{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .nfr-sec-5-sub-sec-01{
+      padding-left: 0;
+      margin-left: 0;
+      padding-top: 20px;
+    }
+    .nfr-section-5-hdr{
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    .fl-page-bnr h1{
+      font-size: 70px;
+    }
+    .fl-page-bnr-cntlr{
+      max-width: 900px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .fl-page-bnr h3{
+      font-size: 32px;
+    }
 }
 
 @media(max-width: 1150px){
@@ -1298,17 +1396,17 @@ header.fl-hdr {
     .show-sm{
         display: block!important;
     }
-    h1{
-      font-size: 40px;
+    h1 {
+      font-size: 50px;
     }
-    h2{
-      font-size: 30px;
+    h2 {
+      font-size: 45px;
     }
     h3 {
-      font-size: 26px;
+      font-size: 30px;
     }
     h4 {
-      font-size: 20px;
+      font-size: 26px;
     }
     p br{
         display: none;
@@ -1316,6 +1414,8 @@ header.fl-hdr {
     .fl-pkg-grd-controller > ul > li {
         width: 100%;
         margin-bottom: 20px;
+        padding-left: 0;
+        padding-right: 0;
     }
     .fl-pkg-grd-col-btm-bdr {
         max-width: 370px;
@@ -1394,6 +1494,65 @@ header.fl-hdr {
     .fl-pkg-section {
         padding-top: 40px;
     }
+    .pkg-area-cntlr {
+        padding-top: 20px!important;
+    }
+    .nfs-sec-2-grd-cntlr{
+      padding-left: 0;
+    }
+    .nfs-sec-2-grd-lft {
+      max-width: 400px;
+      width: 100%;
+      position: static;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .nfs-sec-2-row-2-des, 
+    .nfs-sec-2-des {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .nfs-sec-2-img-01 img {
+        display: block;
+        text-align: center;
+        border-radius: 45px;
+    }
+
+    .nfs-sec-2-img-01{
+      background: transparent!important;
+      min-height: auto;
+      border-radius: 45px;
+    }
+    .nfs-fea-img-cntlr{
+      margin-bottom: 20px;
+    }
+    .nfs-sec-2-angel span{
+      display: none!important;
+    }
+    .nfs-sec-2-border-line-01, .nfs-sec-2-border-line-02 {
+      display: block;
+      position: absolute;
+      bottom: -45px;
+      z-index: 10;
+    }
+    .nfs-sec-2-border-line-01 {
+        left: 50px;
+    }
+    .nfs-sec-2-border-line-02 {
+        right: 50px;
+    }
+    .nfs-sec-2-des{
+      border-radius: 25px;
+    }
+    .fl-page-bnr h1 {
+      font-size: 60px;
+    }
+    .fl-page-bnr{
+      font-size: 19px;
+    }
+    .fl-page-bnr h3{
+      font-size: 30px;
+    }
 }
 
 
@@ -1410,17 +1569,17 @@ header.fl-hdr {
     p{
        margin-bottom: 20px;
     }
-    h1{
-      font-size: 35px;
+    h1 {
+      font-size: 45px;
     }
-    h2{
-      font-size: 28px;
+    h2 {
+      font-size: 42px;
     }
     h3 {
-      font-size: 25px;
+      font-size: 30px;
     }
     h4 {
-      font-size: 20px;
+      font-size: 26px;
     }
 
     .out-stock-sec-hdr h2 br,
@@ -1474,7 +1633,26 @@ header.fl-hdr {
     .fl-pkg-section.nfr-section-12 {
         padding-top: 56px;
     }
-
+    .plr-10 {
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .nfr-sec-3-des{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .fl-page-bnr h1 {
+      font-size: 50px;
+    }
+    .fl-page-bnr{
+      font-size: 18px;
+    }
+    .fl-page-bnr h3{
+      font-size: 27px;
+    }
+    .fl-shipping h4{
+      font-size: 22px;
+    }
 }
 
 @media(max-width: 639px){
@@ -1482,8 +1660,19 @@ header.fl-hdr {
 }
 
 @media(max-width: 575px){
-
-  .fl-creditcards{
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 35px;
+    }
+    h3 {
+      font-size: 30px;
+    }
+    h4 {
+      font-size: 25px;
+    }
+    .fl-creditcards{
         padding-left: 0;
     }
     .fl-pkg-sec-bg-hdr h2 br{
@@ -1511,8 +1700,9 @@ header.fl-hdr {
     .nfr-sec-yellow-title-05 h1{
       background-position: center center!important;
       background-size: cover!important;
-      padding-left: 40px;
-      padding-right: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 30px;
     }
     .nfr-sec-3-grds-cntlr ul{
       margin-top: -40px;
@@ -1545,26 +1735,33 @@ header.fl-hdr {
     .nfr-section-5-hdr h1 small{
       font-size: 28px;
     }
+    .fl-page-bnr h1 {
+      font-size: 40px;
+      line-height: 1.1;
+    }
+    .fl-page-bnr{
+      font-size: 18px;
+    }
+    .fl-page-bnr h3{
+      font-size: 26px;
+    }
+    .fl-shipping h4 {
+      font-size: 19px;
+  }
 
 }
 
 
 @media(max-width: 479px){
-
-
-
-  .fl-pkg-sec-bg-hdr h2{
+    .fl-pkg-sec-bg-hdr h2{
         font-size: 26px;
     }
     .fl-ftr-nav ul li {
         padding: 0 16px;
-        font-size: 15px;
+        font-size: 16px;
     }
     .fl-footer-wrap p{
-        font-size: 13px;
-    }
-    .fl-footer-wrap{
-        padding: 45px 0 55px;
+        font-size: 15px;
     }
     .nfr-sec-yellow-title-01 h2,
     .nfr-sec-yellow-title-02 h2,
