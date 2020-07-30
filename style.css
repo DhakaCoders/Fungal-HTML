@@ -572,7 +572,7 @@ header.fl-hdr {
   background: #007ab5;
   color: #fff;
   border-bottom: 5px solid #ff9c00;
-  padding: 15px 20px 25px;
+  padding: 15px 20px 30px;
   text-align: center;
   margin: 0 -27px;
   border-radius: 10px 10px 0 0;
@@ -601,7 +601,7 @@ header.fl-hdr {
 }
 
 .nfr-sec-5-sub-sec-01-fea-img{
-  width: 65%;
+  width: 68%;
   position: absolute;
   left: 0;
   top: 0;
@@ -614,7 +614,7 @@ header.fl-hdr {
 .nfr-sec-5-sub-sec-01-des{
   position: relative;
   z-index: 2;
-  padding-top: 40px;
+  padding-top: 35px;
 }
 .nfr-sec-5-sub-sec-01-des p{
   margin-bottom: 25px;
@@ -652,13 +652,9 @@ header.fl-hdr {
 .nfr-sec-yellow-title-05{
   margin-bottom: 40px;
 }
-
-.nfr-sec-yellow-title-05 h1{
-  padding: 15px 60px 25px;
-  background-size: 100% 100%!important;
-  background-repeat: no-repeat!important;
-  text-align: center;
-  margin: 0;
+.nfr-sec-yellow-title-05.nfr-sec-yellow-title-06{
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .nfr-sec-yellow-title-05.nfr-sec-yellow-title-06 h1{
   display: inline-block;
@@ -667,7 +663,28 @@ header.fl-hdr {
 
 
 /*pest */
-
+.reference-sec-inr{
+  padding-top: 20px;
+}
+.reference-sec-inr h4{
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.reference-sec-inr ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-bottom: 30px;
+}
+.reference-sec-inr ul li{
+  padding-bottom: 10px;
+}
+.reference-sec-inr ul li a{
+  color: #1227c5;
+  font-size: 16px;
+  line-height: 1.2;
+}
 .fl-money-back-sub-section{
   padding-right: 330px;
   position: relative;
@@ -681,9 +698,6 @@ header.fl-hdr {
   right: 0;
 }
 
-.fl-pkg-section.nfr-section-12{
-  padding-top: 75px;
-}
 
 
 .fl-footer-wrap{
@@ -763,7 +777,7 @@ header.fl-hdr {
 
 
 .fl-pkg-section{
-  padding-top: 50px;
+  padding-top: 10px;
 }
 .pkg-area-cntlr{
   padding-top: 50px!important;
@@ -1056,9 +1070,6 @@ header.fl-hdr {
     top: 0;
 }
 
-
-
-/*star of shariful*/
  
 
 .nfn-sec-1-hdr{
@@ -1100,7 +1111,7 @@ header.fl-hdr {
 
 
 .nfr-sec-1{
-  padding: 40px 0 10px;
+  padding: 35px 0 10px;
   color: #fff;
 }
 .color-orange{
@@ -1109,20 +1120,27 @@ header.fl-hdr {
 .nfr-sec-1 h1{
   margin: 0 0 29px 0;
 }
+.nfr-sec-2{
+  padding-top: 30px;
+}
 .nfr-sec-2 h1{
   margin: 0 0 29px 0;
 }
 
+.nfr-sec-2-img-01{
+  margin-top: -10px;
+}
 .nfr-sec-3-inr{
   position: relative;
   padding: 0 310px 0 0;
   margin-bottom: 50px;
+  margin-top: 15px;
 }
 
 .nfr-sec-3-des{
   background-size: 100% 100%!important;
   background-repeat: no-repeat!important;
-  padding: 35px 130px 5px 30px;
+  padding: 35px 115px 5px 30px;
 }
 
 .nfr-sec-3-fea-img-01{
@@ -1137,14 +1155,14 @@ header.fl-hdr {
   margin: 0 0 30px 0;
 }
 .nfr-sec-4-hdr h2{
-  margin: 0 0 25px 0;
+  margin: 0 0 30px 0;
 }
 
 .blue-angle-hdr{
   background: #007ab5;
   border-bottom: 8px solid #ff9c00;
   position: relative;
-  padding: 10px 0 15px;
+  padding: 15px 0 25px;
   color: #fff;
   text-align: center;
   margin-bottom: 55px;
@@ -1156,18 +1174,21 @@ header.fl-hdr {
 .blue-angle-hdr h1 span{
   color: #ffaa24;
 }
-.border-btm-angle{
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  bottom: -33px;
-  width: 115px;
-  height: 38px;
-  background-size: 100% auto!important;
-  background-repeat: no-repeat!important;
-  z-index: 10;
+.border-btm-angle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    bottom: -35px;
+    width: 115px;
+    height: 38px;
+    background-size: 100% auto!important;
+    background-repeat: no-repeat!important;
+    z-index: 20;
+}
+.nfr-sec-05{
+  margin-top: 10px;
 }
 .nfr-sec-05-fea-img-01 img{
   width: 100%;
@@ -1175,6 +1196,27 @@ header.fl-hdr {
 }
 .nfr-sec-05-fea-img-01{
   margin-top: -55px;
+}
+.nfn-sec-1-cntlr{
+  position: relative;
+  padding-bottom: 15px;
+}
+.nfn-sec-1-desc{
+  width: 50%;
+  position: relative;
+  z-index: 2;
+}
+.nfn-sec-1-fea-img img{
+  display: none;
+}
+
+.nfn-sec-1-fea-img{
+  position: absolute;
+  right: -25px;
+  bottom: 0;
+  top: -30px;
+  z-index: 1;
+  width: 66%;
 }
 
 @media(max-width: 1399px){
@@ -1220,6 +1262,10 @@ header.fl-hdr {
     .nfr-text-module.pl-30{
       padding-left: 0!important;
     }
+    .nfr-sec-yellow-title-05.nfr-sec-yellow-title-06{
+    padding-left: 0;
+    padding-right: 0;
+  }
 
 }
 
